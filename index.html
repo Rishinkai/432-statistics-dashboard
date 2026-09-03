@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>432 统计学学习驾驶舱</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-title">432 统计学</div>
+      <div class="brand-sub">学习驾驶舱</div>
+    </div>
+    <div class="side-search">
+      <form id="side-search-form">
+        <input id="side-search-input" type="search" placeholder="搜索知识点 / 题目 / 公式…" autocomplete="off">
+      </form>
+    </div>
+    <nav class="side-nav" id="side-nav">
+      <a href="#/" data-nav="/">首页</a>
+      <a href="#/knowledge" data-nav="/knowledge">知识点</a>
+      <a href="#/chapters" data-nav="/chapters">章节分析</a>
+      <a href="#/papers" data-nav="/papers">真题</a>
+      <a href="#/exercises" data-nav="/exercises">期末习题</a>
+      <a href="#/similar" data-nav="/similar">重复考点</a>
+      <a href="#/priority" data-nav="/priority">复习优先级</a>
+      <a href="#/study" data-nav="/study">我的学习</a>
+      <a href="#/ai" data-nav="/ai">AI 学习</a>
+    </nav>
+    <div class="side-foot">
+      <div class="side-foot-label">数据库更新时间</div>
+      <div id="db-time" class="side-foot-time">读取中…</div>
+      <div id="db-path" class="side-foot-path"></div>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="loading">加载中…</div>
+  </main>
+
+  <nav class="bottom-nav" id="bottom-nav">
+    <a href="#/" data-nav="/"><span class="bn-ico">◈</span><span>首页</span></a>
+    <a href="#/knowledge" data-nav="/knowledge"><span class="bn-ico">◆</span><span>知识点</span></a>
+    <a href="#/papers" data-nav="/papers"><span class="bn-ico">▤</span><span>真题</span></a>
+    <a href="#/exercises" data-nav="/exercises"><span class="bn-ico">✎</span><span>习题</span></a>
+    <a href="#/priority" data-nav="/priority"><span class="bn-ico">▲</span><span>复习</span></a>
+    <a href="#/study" data-nav="/study"><span class="bn-ico">●</span><span>我的</span></a>
+  </nav>
+</div>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

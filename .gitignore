@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+backend/page_cache/
+
+# OS
+Thumbs.db
+.DS_Store
