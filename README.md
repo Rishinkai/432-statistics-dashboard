@@ -31,7 +31,7 @@ python backend/app.py
 # 浏览器打开 http://localhost:3000
 ```
 
-Windows 用户可直接双击 `启动Dashboard.bat`（内部即上述两条命令）。
+Windows 用户可直接双击 `启动Dashboard.bat`（纯 ASCII 内容避免中文 cmd 乱码；自动检查并用 `py -3` 优先的解释器运行，首次缺依赖时会自动 `pip install -r requirements.txt`）。
 
 **服务绑定 `127.0.0.1:3000`，仅本机可访问**（刻意设计，无任何公网/远程/登录功能）。端口可用环境变量 `PORT` 覆盖。
 
